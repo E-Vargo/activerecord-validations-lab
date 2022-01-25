@@ -16,4 +16,5 @@ class Post < ActiveRecord::Base
       errors[:title] << "Not click-batey enough!!"
       end
     end
+    #tried this multiple ways, used solutions functionality 
   end
